@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
     return (
         <>
-            <span className="text-7xl">Contact Page</span>
+            <span className="text-2xl">Contact Page</span>
         </>
     );
 }
