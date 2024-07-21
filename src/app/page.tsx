@@ -1,8 +1,12 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center p-24">
-      <span>Hola mundo !!</span>
+      <span className="text-5xl">
+        Hola Mundo
+      </span>      
+      <Link href='/about' className='flex items-center'> <span> About</span> </Link>
     </main>
   );
 }
